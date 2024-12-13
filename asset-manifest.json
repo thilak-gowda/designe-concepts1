@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/designe-concepts1/static/css/main.1a2bd9cb.css",
+    "main.js": "/designe-concepts1/static/js/main.3ce1ae4f.js",
+    "static/js/453.ed43b8c9.chunk.js": "/designe-concepts1/static/js/453.ed43b8c9.chunk.js",
+    "index.html": "/designe-concepts1/index.html",
+    "main.1a2bd9cb.css.map": "/designe-concepts1/static/css/main.1a2bd9cb.css.map",
+    "main.3ce1ae4f.js.map": "/designe-concepts1/static/js/main.3ce1ae4f.js.map",
+    "453.ed43b8c9.chunk.js.map": "/designe-concepts1/static/js/453.ed43b8c9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a2bd9cb.css",
+    "static/js/main.3ce1ae4f.js"
+  ]
+}
