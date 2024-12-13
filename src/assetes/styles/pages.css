@@ -1,0 +1,115 @@
+.caro-img {
+    height: 100vh;
+    object-fit: cover;
+}
+
+
+
+.carousel-item .blc-patch {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+}
+
+
+.carousel-caption {
+    position: absolute;
+    top: 50% !important;
+    /* transform: translate(-50% 0%) !important; */
+    transform: translate(0%, -50%);
+}
+
+.carousel-caption p {
+    color: #FFFFFF9C;
+    font-size: 14px;
+}
+
+
+.carousel-control-next,
+.carousel-control-prev {
+    top: 85% !important;
+}
+
+
+.carousel-control-next {
+    left: 30px !important;
+}
+
+
+.or-serimg {
+    height: 100vh;
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.mis-vis {
+    border: 1px solid black;
+}
+
+
+.mis-vis .accordion-button {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    /* border: 1px solid black; */
+}
+
+.brd-btm {
+    border-bottom: 1px solid black;
+}
+
+.numbers {
+    font-size: 50px;
+    border-bottom: 1px solid black;
+    font-weight: 700;
+    font-family: "Bebas Neue", Sans-serif !important;
+}
+
+.no-cli {
+    font-size: 13px;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif !important;
+
+}
+
+.navbar-brand{
+    text-transform: capitalize !important;
+}
+
+.nm-2 {
+    color: transparent !important;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #333;
+    text-shadow: none;
+}
+
+.sho-mn-img{
+    height: 700px;
+}
+
+.cl-hig{
+    height: 700px;
+}
+.cl-hig img{
+    height: 350px !important;
+}
+
+.img-sec-2{
+    height: 350px;
+}
+
+.helo{
+    font-size: 30px;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+}
+
+.get-intouch{
+    font-size: 18px;
+    color: black;
+}

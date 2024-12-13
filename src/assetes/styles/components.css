@@ -1,0 +1,210 @@
+.nv-cont {
+    position: fixed !important;
+    z-index: 100;
+    width: 100%;
+}
+
+nav {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white !important;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(25px);
+    border-bottom: 1px solid gray;
+}
+
+nav .nav-link,
+.navbar-brand {
+    color: white !important;
+}
+
+.brnd-si {
+    font-size: 30px;
+    text-transform: capitalize !important;
+    font-family: "Jost", sans-serif !important;
+}
+
+.nav-link {
+
+    font-family: "Jost", sans-serif !important;
+}
+
+.carousel-caption h3 {
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+
+/* heading */
+
+.hed-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-hed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00000073;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 50%;
+}
+
+.sub-hed .line {
+    flex: 1;
+    height: .5px;
+    background-color: #00000021;
+    /* Adjust color as needed */
+    margin: 0 10px;
+    /* Adjust spacing as needed */
+}
+
+.sub-hed span {
+    white-space: nowrap;
+    /* Prevent line breaking for the text */
+}
+
+.hed-cont {
+    color: #000000;
+    font-size: 85px;
+    font-weight: 800;
+    line-height: 1em;
+}
+
+.our-ser {
+    color: #000000;
+    font-size: 17px;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5%;
+    font-weight: 500;
+}
+
+
+/* swiper style */
+
+.mySwiper {
+    width: 100%;
+    height: 50vh;
+    /* Ensures full viewport height for vertical scrolling */
+    display: flex !important;
+    align-items: center !important;
+}
+
+.swiper-slide {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.swip-alig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    display: block;
+    margin: auto;
+    padding: 4%;
+    width: 70% !important;
+    background-color: #6c757d;
+    /* Bootstrap secondary color */
+}
+
+
+.per-img {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-color: #6c757d;
+    border-radius: 10px;
+}
+
+.pos-ab {
+    position: absolute;
+    color: white;
+    left: 10%;
+    bottom: 0%;
+}
+
+
+/* footer */
+
+.footer {
+    background-image: url('https://themes.pixelwars.org/interioz/demo-01/wp-content/uploads/sites/2/2024/07/bb-04.jpg');
+    position: relative;
+}
+
+.z-in {
+    z-index: 10 !important;
+}
+
+
+.ftr-cover {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.footer-header {
+    font-size: 55px;
+    font-weight: 900;
+    color: white;
+    line-height: 60px;
+}
+
+.ftr-cnt {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.ftr-he {
+    font-size: 25px;
+}
+
+.continfo {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-weight: 300;
+}
+
+
+@media only screen and (max-width:760px) {
+
+    .carousel-caption h3 {
+        font-size: 55px;
+        line-height: 60px;
+    }
+
+    .hed-cont {
+        color: #000000;
+        font-size: 40px;
+    }
+
+    .abtt-c {
+        width: 90% !important;
+    }
+
+    .or-serimg {
+        height: 70vh;
+    }
+
+    .numbers {
+        font-size: 80px;
+        padding-top: 5%;
+    }
+
+}
